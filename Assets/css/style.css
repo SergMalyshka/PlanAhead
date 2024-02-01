@@ -1,0 +1,49 @@
+#getWeather {
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+#cityName, #stateName {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+    padding-bottom: 14px;
+}
+
+.header {
+   margin-bottom: 15px!important;
+}
+
+/* display nothing at first */
+#current-weather {
+    display: none;
+}
+
+.row {
+    padding: 10px;
+}
+
+#city-prompt {   
+    background-color: lightblue;
+    padding-top: 12px; 
+    text-align: center;
+    padding-bottom: 12px;
+
+}
+
+#current-weather {
+    background-color: lightblue;
+}
+
+.accordion-style {
+    background-color: lightblue;
+}
+
+#accordionContainer {
+    display: none;
+}
