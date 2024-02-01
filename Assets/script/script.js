@@ -65,7 +65,7 @@ function renderHistory() {
 function geoCode(city) {
 
     //dynamic building of the request url
-    var apiUrl = 'http://api.openweathermap.org/geo/1.0/direct?q=' + city + '&limit=5&appid=' + apiKey;
+    var apiUrl = 'https://api.openweathermap.org/geo/1.0/direct?q=' + city + '&limit=5&appid=' + apiKey;
     var encodedUrl = encodeURI(apiUrl);
 
     //fetch request
