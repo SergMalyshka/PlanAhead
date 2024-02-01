@@ -121,7 +121,7 @@ function displayWeatherInfo(data) {
     currentWeatherEl.textContent = "Current Weather in " + desiredCity + " on " + timeNow.format('dddd, MMMM D, YYYY');
 
     //grab the icon representing the weather condition and add it to the display, as well as temp, wind and humidity
-    var iconUlr = "http://openweathermap.org/img/w/" + data.list[0].weather[0].icon + ".png";
+    var iconUlr = "https://openweathermap.org/img/w/" + data.list[0].weather[0].icon + ".png";
     currentIconEl.setAttribute("src", iconUlr);
     currentTempEl.textContent = "Temperature: " + data.list[0].main.temp + "°F";
     currentWindEl.textContent = "Wind: " + data.list[0].wind.speed + " MPH";
@@ -152,7 +152,7 @@ function populateAccordion(accordion, weatherData) {
 
     //grab the image representing condtions, add it to the element
     var img = document.createElement("img");
-    var iconUlr = "http://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png";
+    var iconUlr = "https://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png";
     img.setAttribute('src', iconUlr);
     accordion.appendChild(img);
 
